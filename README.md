@@ -16,12 +16,15 @@ It's our goal to be working with you in the long run and providing you with new 
 
 We are creating [headless websites](https://blog.cpanel.com/how-to-use-wordpress-as-a-headless-cms/) and webapps for our clients, using `WordPress` as a `headless CMS` for the backend and `Vue.js` or `Nuxt.js` as the frontend.
 
-While `simple websites` will be created directly with `Nuxt.js`, `webshops` will be created in `Vue.js`, so we can implement the `Vue.js` components into our own `core`.
+- `simple websites` will be created directly with `Nuxt.js` 
+- `webshops` will be created in `Vue.js`, so we can implement the `Vue.js` components into our own `core`.
 
 We will take care of the `design` and the `backend`, so you only need to bother with the frontend.
 
-It means that you will receive an `adobe XD design` to convert it into `Vue.js` code for the frontend. 
-Also, you will receive the required information to fetch data from the server into your `frontend application`.
+You will receive 2 things from us:
+
+1. an `adobe XD design` to convert it into `Vue.js` code for the frontend. 
+2. the required information to fetch data from the server into your `frontend application`.
 
 Along the way, there's a few things you need to know and that you have to take care of:
 
