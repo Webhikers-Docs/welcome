@@ -24,7 +24,13 @@ We will take care of the `design` and the `backend`, so you only need to bother 
 You will receive 2 things from us:
 
 1. an `adobe XD design` to convert it into `Vue.js` code for the frontend. 
-2. the required information to fetch data from the server into your `frontend application`.
+2. the required information to fetch data from the server into your `frontend application`:
+  - the `baseURL` for the `REST API`
+  - the `page_ids` for all pages
+  - custom `post_type` names if there are any
+  - A `google recaptcha site key`, if there is a form on the page
+  - A `form_id` if there is a form on the page
+  - A list with all `form inputs` that are accpted by the server for each form
 
 Along the way, there's a few things you need to know and that you have to take care of:
 
@@ -32,15 +38,14 @@ Along the way, there's a few things you need to know and that you have to take c
 
 ## The Procedure
 
+This is the workflow and the required steps you need to take for each project.
+
 1. We will send you an adobe XD File, which needs to be converted to a `Vue.js` or `Nuxt.js` app.
 2. While you convert the XD file to code, we will prepare a `headless` WordPress site and fill it with content.
-3. As soon as you finished the conversion from `XD` to `code`, you will receive a file with the following information.
-  - the `baseURL` for the `REST API`
-  - the `page_ids` for all pages
-  - custom `post_type` names if there are any
-  - A `google recaptcha site key`, if there is a form on the page
-  - A `form_id` if there is a form on the page
-  - A list with all `form inputs` that are accpted by the server for each form
+3. As soon as you finished the conversion from `XD` to `code`, you will receive a the file with all project-related data.
+4. You will then be able to fetch data from the CMS and add it to your frontend. A short tutorial ist [listed below](#data-fetching)
+5. When all data is fetched, please make sure to set up fully functional routing.
+6. Only for `Nuxt.js` projects: When all routing is enabled, please make sure to install and setup [nuxt-lazy-load](https://www.npmjs.com/package/nuxt-lazy-load)
 
 <a name="guidelines"/>
 
@@ -65,6 +70,8 @@ If you have any questions, please contact me ANYTIME at christian@webhikers.at.
 I've received projects, where the `bootstrap-vue` `scss source` has been imported into every single component, resulting in a giant compiled css file, where the bootstrap source has been included several times.
 
 If you're perfectly confident, that you're importing and using `bootstrap-vue` correctly, then you can skip this step. [Otherwise, please shortly walk with me through the installation process](https://github.com/Webhikers-Docs/nuxt-bootstrap-doc), to install `bootstrap-vue` the correct way.
+
+<a name="data-fetching"/>
 
 ### 3. Fetching Data from our clients `WordPress` sites
 
