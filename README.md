@@ -1,18 +1,14 @@
 # welcome
 
+Dear Coder, thank you so much for becoming a part of the Webhikers team and joining our journey to deliver better websites and webapps to the world:)
+
+It's our goal to be working with you in the long run and providing you with new jobs on a daily basis. So, please give this `readme` a quick shot.
+
 - [Intro](#intro)
 - [The Product](#product)
 - [The Procedure](#procedure)
 - [Guidelines](#guidelines)
 - [Closing](#closing)
-
-<a name="intro"/>
-
-## Intro
-
-Dear Coder, thank you so much for becoming a part of the Webhikers team and joining our journey to deliver better websites and webapps to the world:)
-
-It's our goal to be working with you in the long run and providing you with new jobs on a daily basis. So, please give this `readme` a quick shot.
 
 <a name="product"/>
 
