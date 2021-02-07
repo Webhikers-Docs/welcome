@@ -24,7 +24,7 @@ We will take care of the `design` and the `backend`, so you only need to bother 
 You will receive 2 things from us:
 
 1. an `adobe XD design` to convert into `Vue.js` code for the frontend. 
-2. the required information to fetch data from the server into your `frontend application`:
+2. the required information to fetch data from the server into your `frontend application`, which contains the following:
   - the `baseURL` for the `REST API`
   - the `page_ids` for all pages
   - custom `post_type` names if there are any
