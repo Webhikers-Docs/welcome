@@ -64,7 +64,7 @@ If you're perfectly confident, that you're importing and using `bootstrap-vue` c
 
 ### 3. Fetching Data from our clients `WordPress` sites.
 
-This is just a short documentation with a little `api helper script`. Here you can find the REST API endpoints for `pages`, `posts` and `custom_post_types`. Since the WordPress REST API, doesn't send the response UTF-8 decoded, we need to decode the response manually. This is what our `api helper script` is doing. If you have a better alternative, to don't have to stick with this script.
+This is just a short documentation with a little `api helper script`. Here you can find the REST API endpoints for `pages`, `posts` and `custom_post_types`. Since the WordPress REST API, doesn't send the response UTF-8 decoded, we need to decode the response manually. This is what our `api helper script` is doing. If you have a better alternative, you don't have to stick with this script.
 
 You can find the documentation [here](https://github.com/Webhikers-Docs/wp-api-doc)
 
