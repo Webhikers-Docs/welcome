@@ -50,7 +50,7 @@ It's very important to learn a few of our simple coding practices, so your code 
 
 ### 1. The architecture
 
-**read `before` you convert the XD file to code**
+**(read `before` you convert the XD file to code)**
 
 File organization, naming conventions and scoping is extremely important to build maintainable websites and webapps. Sometimes we will merge your code with some code of ours and sometimes you will create standalone websites. However, if you stick to the following rules, you will write perfectly organized webapps, that we can work with. Don't worry, it's not that many rules, most of them are self-explanatory and best-practices anyway.
 
@@ -60,7 +60,7 @@ If you have any questions, please contact me ANYTIME at christian@webhikers.at.
 
 ### 2. Installation of `bootstrap-vue` in `Nuxt.js` projects
 
-**read `before` you convert the XD file to code**
+**(read `before` you convert the XD file to code)**
 
 I've received projects, where the `bootstrap-vue` `scss source` has been imported into every single component, resulting in a giant compiled css file, where the bootstrap source has been included several times.
 
@@ -68,7 +68,7 @@ If you're perfectly confident, that you're importing and using `bootstrap-vue` c
 
 ### 3. Fetching Data from our clients `WordPress` sites
 
-**read `after` you convert the XD file to code**
+**(read `after` you convert the XD file to code)**
 
 This is just a short documentation with a little `api helper script`. Here you can find the REST API endpoints for `pages`, `posts` and `custom_post_types`. Since the WordPress REST API, doesn't send the response UTF-8 decoded, we need to decode the response manually. This is what our `api helper script` is doing. If you have a better alternative, you don't have to stick with this script.
 
@@ -76,7 +76,7 @@ You can find the documentation [here](https://github.com/Webhikers-Docs/wp-api-d
 
 ### 4. Submitting a form to Wordpress
 
-**read `after` you convert the XD file to code**
+**(read `after` you convert the XD file to code)**
 
 1. We will create a form in WordPress (Contact Form 7 Plugin) and define all accepted input fields manually. For example: `fullname`, `email`, `message`.
 2. We will send you the `field names` in a seperate file with all other project related data.
