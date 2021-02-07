@@ -20,7 +20,8 @@ While `simple websites` will be created directly with `Nuxt.js`, `webshops` will
 
 We will take care of the `design` and the `backend`, so you only need to bother with the frontend.
 
-It means that you will receive an `adobe XD design` to convert it into `Vue.js` code for the frontend and the required information to fetch data from the server into your `frontend application`.
+It means that you will receive an `adobe XD design` to convert it into `Vue.js` code for the frontend. 
+Also, you will receive the required information to fetch data from the server into your `frontend application`.
 
 Along the way, there's a few things you need to know and that you have to take care of:
 
