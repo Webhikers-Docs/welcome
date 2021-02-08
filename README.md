@@ -42,7 +42,7 @@ This is the workflow and the required steps you need to take for each project.
 
 1. We will send you an adobe XD File, which needs to be converted to a `Vue.js` or `Nuxt.js` app.
 2. While you convert the XD file to code, we will prepare a `headless` WordPress site and fill it with content.
-3. As soon as you finished the conversion from `XD` to `code`, you will receive a the file with all project-related data.
+3. As soon as you finished the conversion from `XD` to `code`, you will receive a file with all project-related data.
 4. You will then be able to fetch data from the CMS and add it to your frontend. A short tutorial ist [listed below](#data-fetching)
 5. When all data is fetched, please make sure to set up fully functional routing.
 6. Only for `Nuxt.js` projects: When all routing is enabled, please make sure to install and setup [nuxt-lazy-load](https://www.npmjs.com/package/nuxt-lazy-load)
