@@ -8,6 +8,7 @@ It's our goal to be working with you in the long run and providing you with new 
 - [The Product](#product)
 - [The Procedure](#procedure)
 - [Guidelines](#guidelines)
+- [Checklist](#checklist)
 - [Closing](#closing)
 
 <a name="product"/>
@@ -90,6 +91,14 @@ You can find the documentation [here](https://github.com/Webhikers-Docs/wp-api-d
 3. You will create the frontend form and submit `fullname`, `email`, `message` to the clients WordPress site.
 
 Please use [this very short documentation](https://github.com/Webhikers-Docs/bootstrap-vue-cf7) to build forms in our projects
+
+
+<a name="checklist"/>
+
+## Checklist
+
+We prepared a little checklist for you, so you can double check if you met the coding guidelines. 
+[Here is the short checklist](https://github.com/Webhikers-Docs/coding-guideline-checklist/blob/main/README.md)
 
 <a name="closing"/>
 
